@@ -1,6 +1,5 @@
-import React from 'react'
-import styles from './styles.module.css'
+import { FootballBoard } from './components/FootballBoard';
+import { Board } from './components/Board';
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export { FootballBoard, Board }
+export const status = ['Not Started', '1st half', 'Halftime', '2nd half', 'Ended'];

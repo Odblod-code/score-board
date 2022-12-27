@@ -1,9 +1,11 @@
-/* add css module styles here (optional) */
+.dynamic-board {
+    text-align: center;
+}
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.dynamic-board .row > * {
+    width: 100px;
+}
+
+.dynamic-board .row:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
 }
