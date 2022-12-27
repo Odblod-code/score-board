@@ -2,8 +2,8 @@
 This a library destinated for a Football wordcup board.
 In this library you can find three utilities:
 
-- FootballBoard
-FooballBoard will create a table with a list of matches with time, teams, score and status.
+- FootballBoard: 
+will create a table with a list of matches with time, teams, score and status.
 In this case, the list is not dynamic, inside the code there is a functions that controls the results of the match depending the possition. Having this in mind, I recomend you to stick to the example parameter "footballBoard". 
 
 First element in array will be the header, next elements will be the data inside the table.
@@ -25,8 +25,8 @@ class Example extends Component {
   }
 }
 ```
-- Board
-Board will create a table with a list of elements by param boardData.
+- Board: 
+will create a table with a list of elements by param boardData.
 
 First element in array will be the header, next elements will be the data inside the table.
 ```jsx
@@ -44,7 +44,7 @@ class Example extends Component {
   }
 }
 ```
-- Status
+- Status: 
 Array with all the status for the match, this constant value will bring the following array:
   status = ['Not Started', '1st half', 'Halftime', '2nd half', 'Ended']
 # score-board
